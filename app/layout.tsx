@@ -10,9 +10,11 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: "Felix Macaspac - HubSpot CMS Developer",
-  description: "HubSpot CMS Developer from Philippines with 5 years of experience.",
-  generator: "v0.app",
+  title: "Edeal Aschalew",
+  description: "Full-stack developer / AI Enthusiast from Ethiopia.",
+  icons: {
+    icon: "public/favicon.ico", // <-- add your favicon here
+  },
 }
 
 export default function RootLayout({
@@ -22,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geist.variable}`}>
+        <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
   )
