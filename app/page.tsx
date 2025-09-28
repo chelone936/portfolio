@@ -195,7 +195,7 @@ export default function Home() {
                   year: "2025",
                   role: "AI Engineer Intern",
                   company: "Mcleuker (Remote)",
-                  description: "Developing machine learning models and fine-tuning LLMs for business automation and analytics.",
+                  description: "",
                   tech: ["Python", "TensorFlow", "LLMs", "APIs"],
                 },
                 {
