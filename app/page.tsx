@@ -203,6 +203,7 @@ export default function Home() {
                   role: "Backend Developer Intern",
                   company: "Costbits (Remote)",
                   description: "",
+                  tech:[],
                 },
                 {
                   year: "2024",
