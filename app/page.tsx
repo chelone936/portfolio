@@ -199,10 +199,16 @@ export default function Home() {
                   tech: ["Python", "TensorFlow", "LLMs", "APIs"],
                 },
                 {
+                  year: "2025",
+                  role: "Backend Developer Intern",
+                  company: "Costbits (Remote)",
+                  description: "",
+                },
+                {
                   year: "2024",
                   role: "Full Stack Freelancer",
                   company: "Self-employed",
-                  description: "Delivered end-to-end web and web solutions for clients, integrating business logic and modern tech stacks.",
+                  description: "",
                   tech: ["Next.js", "Node.js", "TypeScript", "Javascript"],
                 },
               ].map((job, index) => (
